@@ -53,3 +53,9 @@ def using_uniq(duplicates)
   haircuts = duplicates.uniq
   p haircuts
 end
+
+def using_flatten(array)
+  instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+  instruments = array.flatten
+  p instruments
+end
