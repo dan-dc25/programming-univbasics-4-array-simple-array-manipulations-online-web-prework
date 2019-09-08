@@ -59,3 +59,10 @@ def using_flatten(array)
   instruments = array.flatten
   p instruments
 end
+
+def using_delete(array, string)
+  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+  string = "Steven"
+  instructors = array.delete("Steven")
+  p instructors
+end
