@@ -53,4 +53,3 @@ def uniq(duplicates)
   haircuts = duplicates.uniq
   p haircuts
 end
-
