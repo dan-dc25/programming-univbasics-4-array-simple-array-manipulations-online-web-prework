@@ -47,4 +47,3 @@ def using_insert(array, new_element)
   list_of_programming_languages = array.insert(4, new_element)
   p list_of_programming_languages
 end
-
