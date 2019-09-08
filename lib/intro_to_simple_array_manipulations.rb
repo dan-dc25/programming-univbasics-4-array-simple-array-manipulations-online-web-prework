@@ -14,5 +14,3 @@ def using_pop
   p continents
   p deleted_continent
 end
-
-
