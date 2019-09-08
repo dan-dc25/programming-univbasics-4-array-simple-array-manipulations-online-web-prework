@@ -50,6 +50,6 @@ end
 
 def uniq(duplicates)
   haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-  haircuts = duplicates.uniq
-  p haircuts
+  duplicates = haircuts.uniq
+  p duplicates
 end
