@@ -13,4 +13,5 @@ def using_pop(array)
   deleted_string = continents.pop
   p continents
   p deleted_string
+  continents.size
 end
