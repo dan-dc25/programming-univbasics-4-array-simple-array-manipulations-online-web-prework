@@ -48,7 +48,7 @@ def using_insert(array, new_element)
   p list_of_programming_languages
 end
 
-def uniq(duplicates)
+def using_uniq(duplicates)
   haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
   extras = duplicates.uniq
   p haircuts
