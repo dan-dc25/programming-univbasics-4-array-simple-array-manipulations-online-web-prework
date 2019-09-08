@@ -40,3 +40,11 @@ def using_concat(array1, array2)
   my_favorite_things = array1.concat(more_favs)
   p my_favorite_things
 end
+
+def using_insert(array, new_element)
+  list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
+  new_element = "Python"
+  list_of_programming_languages = array.insert(4, new_element)
+  p list_of_programming_languages
+end
+
