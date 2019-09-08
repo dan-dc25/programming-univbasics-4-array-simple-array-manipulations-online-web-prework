@@ -8,9 +8,9 @@ def using_unshift(array,string)
   bouroughs_in_nyc.unshift("Staten Island")
 end
 
-def using_pop(continents)
+def using_pop(array)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  deleted_continent = continents.pop
+  deleted_continent = array.pop
   p continents
   p deleted_continent
 end
